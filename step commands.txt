@@ -8,3 +8,6 @@ npm i webpack --no-optional
 npm i webpack-dev-server --no-optional
 
 
+npm i babel-loader babel-core babel-preset-es2015 babel-preset-react --no-optional
+
+
