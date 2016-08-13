@@ -2,6 +2,7 @@ npm init
 
 npm install react react-dom --save --no-optional
 
+npm i babel
 
 npm i webpack --no-optional
 
@@ -9,5 +10,12 @@ npm i webpack-dev-server --no-optional
 
 
 npm i babel-loader babel-core babel-preset-es2015 babel-preset-react --no-optional
+
+
+terus bikin :
+index.html
+App.js = our first react component
+main.js = entri to application
+webpack.config.js
 
 
