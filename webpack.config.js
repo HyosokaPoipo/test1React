@@ -4,7 +4,7 @@ var webpack = require ('webpack');
 module.exports = {
     entry: './main.js',
     output: {
-        path: __dirname,
+        path: path.resolve(__dirname),
         filename: 'index.js'
     },
     devServer: {
@@ -18,7 +18,7 @@ module.exports = {
             exclude:/node_modules/,
             loader:'babel-loader',
             query: {
-                preset: ['es2015', 'react']
+                presets: ['es2015', 'react']
             }
         }
          ]
