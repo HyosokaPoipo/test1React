@@ -1,7 +1,10 @@
+var path = require ('path');
+var webpack = require ('webpack');
+
 module.exports = {
     entry: './main.js',
     output: {
-        path: './',
+        path: __dirname,
         filename: 'index.js'
     },
     devServer: {
@@ -11,9 +14,9 @@ module.exports = {
     module: {
         loaders:[
         {
-            test:/\.js$/,
+            test:/\.jsx?$/,
             exclude:/node_modules/,
-            loader:'babel',
+            loader:'babel-loader',
             query: {
                 preset: ['es2015', 'react']
             }
