@@ -1,3 +1,7 @@
 npm init
 
 npm install react react-dom --save --no-optional
+
+
+npm i webpack --no-optional
+
