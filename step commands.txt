@@ -16,6 +16,6 @@ terus bikin :
 index.html
 App.js = our first react component
 main.js = entri to application
-webpack.config.js
+webpack.config.js = file yg ngekompile semua javascript files dan ngelaunch developing server...
 
 
